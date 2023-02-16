@@ -1,0 +1,13 @@
+{
+  "name": "ui_block_sample",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/Neoito-metrics/ui_block_sample",
+    "ssh": "git@github.com:Neoito-metrics/ui_block_sample.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
