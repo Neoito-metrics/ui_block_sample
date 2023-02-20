@@ -1,0 +1,35 @@
+{
+  "name": "ui_block_sample",
+  "version": "1.0.0",
+  "description": "sample repo for ui blocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "handlelintingpackages": "chmod +x ./packagesHandler.sh && sudo bash ./packagesHandler.sh",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neoito-metrics/ui_block_sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neoito-metrics/ui_block_sample/issues"
+  },
+  "homepage": "https://github.com/Neoito-metrics/ui_block_sample#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "commitlint": "^17.4.4",
+    "eslint": "^8.34.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "2.8.4"
+  }
+}
